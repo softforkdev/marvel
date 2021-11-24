@@ -199,10 +199,22 @@ head::after {
   padding: 10px;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
 .marvel {
   color: white;
   font-size: 0.3em;
   align-self: flex-end;
+  padding: 20px 10px;
+  font-family: "Comic Neue", cursive;
+}
+
+.termsCo {
+  z-index: 2;
+  color: white;
+  font-size: 0.3em;
   padding: 20px 10px;
   font-family: "Comic Neue", cursive;
 }

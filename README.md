@@ -1,6 +1,3 @@
-#Ekaterina Sleptsova
-
-#Coding Challenge
 
 ## Requirements
 

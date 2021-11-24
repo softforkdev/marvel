@@ -53,9 +53,28 @@ function CardSection({ items }) {
           )}
         </div>
       )}
-      {items && items.length > 0 && (
-        <div className="marvel">Data provided by Marvel. © 2014 Marvel</div>
-      )}
+
+      <div className="footer">
+        <div>
+          <a
+            className="termsCo"
+            target="_blank"
+            href="https://www.termsandconditionsgenerator.com/live.php?token=N9DWpB3aWhFoHowgI3r9w9XJmME6iuDA"
+          >
+            Terms and Conditions
+          </a>
+          <a
+            className="termsCo"
+            target="_blank"
+            href="https://www.privacypolicygenerator.info/live.php?token=5iZQY2ewIKi2dGo3QmZoWX7nUaHjBjRj"
+          >
+            Privacy Policy
+          </a>
+        </div>
+        {items && items.length > 0 && (
+          <div className="marvel">Data provided by Marvel. © 2014 Marvel</div>
+        )}
+      </div>
     </>
   );
 }
